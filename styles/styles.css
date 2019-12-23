@@ -33,6 +33,10 @@ h1 {
   display: inline-block;
 }
 
+.square:hover {
+  background-color: rgb(52, 122, 113) ;
+}
+
 .circle {
   position: relative;
 }

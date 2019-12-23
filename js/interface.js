@@ -25,11 +25,12 @@ function updateSquare(position) {
 }
 
 function resetGame() {
+  board = ['', '', '', '', '', '', '', '', ''];
+  playerTime = 0;
   gameOver = false;
   let squares = document.querySelectorAll(".square");
 
   squares.forEach((square) => {
     square.innerHTML = "<div></div>";
-    board = ['', '', '', '', '', '', '', '', ''];
   })
 }
